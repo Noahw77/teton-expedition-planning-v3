@@ -1,0 +1,6 @@
+/* Trip detail helpers */
+.trip-detail .hero.hero-img{ padding: clamp(60px, 10vw, 140px) 0; }
+.trip-detail .hero .lead{ max-width: 820px; color: var(--muted); }
+.trip-detail .backlink{ margin: 14px 0 0; display: inline-block; color: var(--muted); }
+.trip-detail .dayplan{ margin-top: 18px; }
+.trip-detail .dayplan .card{ padding: 18px; }

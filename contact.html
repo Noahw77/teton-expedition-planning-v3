@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact • Teton Expedition Planning</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Lato:wght@400;600&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body class="contact">
+
+  <header class="site-header" role="banner">
+    <div class="container bar">
+      <div class="logo">
+        <a href="index.html" aria-label="Go to homepage">
+          <span class="mark" aria-hidden="true"></span>
+          <span class="word">Teton Expedition Planning</span>
+        </a>
+      </div>
+      <button class="menu-toggle" data-menu-toggle aria-label="Toggle menu">☰</button>
+      <nav class="nav nav-primary" data-nav-primary aria-label="Primary">
+        <a href="about.html">About</a>
+        <div class="dropdown" data-dropdown aria-expanded="false">
+          <button class="dropbtn" data-dropbtn aria-haspopup="true" aria-expanded="false">Trip Options ▾</button>
+          <div class="dropdown-menu" role="menu">
+            <a href="summer.html" role="menuitem">Summer</a>
+            <a href="winter.html" role="menuitem">Winter</a>
+          </div>
+        </div>
+        <a href="partners.html">Partners</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+
+<main>
+  <section class="hero hero-img">
+    <div class="container reveal fade">
+      <div class="eyebrow">Contact</div>
+      <h1>Start Planning Your Trip</h1>
+      <p class="lead">Tell us dates, group size, and interests. We’ll follow up within one business day.</p>
+    </div>
+  </section>
+
+  <section class="section accent">
+    <div class="container">
+      <form class="form-wrap reveal" id="contactForm" novalidate>
+        <div class="form-grid">
+          <div class="field"><label for="name">Full Name</label><input required type="text" id="name" name="name" placeholder="Jane Doe"></div>
+          <div class="field"><label for="email">Email</label><input required type="email" id="email" name="email" placeholder="you@example.com"></div>
+          <div class="field"><label for="phone">Phone</label><input type="tel" id="phone" name="phone" placeholder="(307) 555-1234"><div class="hint">Optional, but helpful for quick planning.</div></div>
+          <div class="field"><label for="party">Group Size</label><select id="party" name="party" required><option value="">Select...</option><option>1–2</option><option>3–4</option><option>5–7</option><option>8+</option></select></div>
+          <div class="field"><label for="dates">Dates</label><input type="text" id="dates" name="dates" placeholder="e.g., June 10–14"></div>
+          <div class="field"><label for="season">Season</label><select id="season" name="season"><option>Summer</option><option>Winter</option><option>Flexible</option></select></div>
+          <div class="field" style="grid-column:1/-1"><label for="interests">Interests</label><textarea id="interests" name="interests" rows="4" placeholder="Wildlife, hiking, rafting, fine dining..."></textarea></div>
+        </div>
+        <input type="text" name="website" id="website" style="position:absolute;left:-200vw;opacity:0" tabindex="-1" autocomplete="off">
+        <div class="actions"><button class="button" type="submit">Send</button><span class="hint">We’ll reply within one business day.</span></div>
+        <div class="success" id="successMsg">Thanks! Your message was sent. We’ll be in touch shortly.</div>
+        <div class="error" id="errorMsg">Something went wrong. Please check the form and try again.</div>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container section">
+      <div class="grid cols-3">
+        <div>
+          <h4>Outdoors Meets Luxury</h4>
+          <p>Concierge trip planning across Jackson Hole and Yellowstone. Bespoke itineraries, local access.</p>
+          <div class="tag">Jackson Hole • Yellowstone</div>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <p><a href="about.html">About</a><br><a href="partners.html">Partners</a><br><a href="summer.html">Summer Trips</a><br><a href="winter.html">Winter Trips</a></p>
+        </div>
+        <div>
+          <h4>Get in touch</h4>
+          <p>Email: <a href="mailto:info@example.com">info@example.com</a><br>Phone: <a href="tel:+13078281885">(307) 828-1885</a></p>
+          <p><a href="#" aria-label="Instagram">Instagram</a> • <a href="#" aria-label="LinkedIn">LinkedIn</a></p>
+        </div>
+      </div>
+      <div class="copy">© 2025 Teton Expedition Planning. All rights reserved.</div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

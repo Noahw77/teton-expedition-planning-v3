@@ -1,0 +1,17 @@
+/* Page-specific styles for Home */
+.home .hero{
+  padding:clamp(60px, 10vw, 140px) 0;
+  background:
+    linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.4)),
+    url('../images/tetons_at_night.jpg') center/cover no-repeat;
+  border-bottom:1px solid #23283a;
+}
+.home .hero .eyebrow{text-transform:uppercase;letter-spacing:.22em;color:var(--muted);font-size:12px;margin-bottom:10px;font-family:Montserrat, system-ui, sans-serif}
+.home .hero h1{max-width:900px}
+.home .hero p.lead{color:var(--muted);max-width:800px;font-size:clamp(16px, 2.2vw, 20px)}
+.home .cta{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap}
+.home .features .card{padding:22px}
+.home .features h3{margin-bottom:6px}
+.home .gallery{margin-top:18px}
+.home .gallery .figure{height:100%}
+.home .hero.hero-img .lead{max-width:760px}

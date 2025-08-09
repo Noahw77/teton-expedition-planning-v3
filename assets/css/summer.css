@@ -1,0 +1,19 @@
+.summer .hero.hero-img{
+  background:linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.4)),
+             url('https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?q=80&w=1800&auto=format&fit=crop') center/cover no-repeat;
+}
+.summer .lead{max-width:820px}
+.summer .figure img{height:340px}
+
+/* Linked trip cards (image + text) */
+.trip-grid{display:grid;grid-template-columns:repeat(2, minmax(0,1fr));gap:24px;margin-top:22px}
+@media (max-width:900px){.trip-grid{grid-template-columns:1fr}}
+.trip-card{display:flex;flex-direction:column;gap:12px;text-decoration:none;background:linear-gradient(180deg, #151a25, #10141f);border:1px solid #23283a;border-radius:var(--radius);padding:12px;box-shadow:var(--shadow);transition: transform var(--dur) var(--ease), border-color var(--dur) var(--ease), box-shadow var(--dur) var(--ease)}
+.trip-card:hover{transform: translateY(-4px);border-color: color-mix(in oklab, var(--accent), white 12%);box-shadow: 0 14px 40px rgba(0,0,0,.45)}
+.trip-card .figure img{height:220px;object-fit:cover;width:100%}
+.trip-card .info h3{margin:8px 0 6px}
+.trip-card .info p{color:var(--muted);margin:0}
+
+/* Custom CTA */
+.custom-cta{text-align:center}
+.custom-cta h2{margin-bottom:8px}
