@@ -14,3 +14,16 @@
 .partner-card .tags{display:flex;gap:8px;flex-wrap:wrap}
 .cta-wrap{text-align:center}
 .cta-wrap h2{margin-bottom:10px}
+
+/* Fix centering in the "Interested in partnering?" section */
+.cta-wrap {
+  text-align: center;
+}
+.cta-wrap .lead,
+.cta-wrap p {
+  max-width: 820px;
+  margin: 0 auto;   /* centers the narrower text block */
+}
+.cta-wrap .button {
+  margin-top: 12px;
+}

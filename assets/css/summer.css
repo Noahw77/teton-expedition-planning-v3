@@ -17,3 +17,15 @@
 /* Custom CTA */
 .custom-cta{text-align:center}
 .custom-cta h2{margin-bottom:8px}
+/* Fix centering in the "Fully Custom Summer Trip" section */
+.custom-cta {
+  text-align: center;
+}
+.custom-cta .lead,
+.custom-cta p {
+  max-width: 820px;
+  margin: 0 auto;   /* centers the narrower text block */
+}
+.custom-cta .button {
+  margin-top: 12px;
+}
