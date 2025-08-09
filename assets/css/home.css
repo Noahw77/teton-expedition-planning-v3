@@ -3,7 +3,7 @@
   padding:clamp(60px, 10vw, 140px) 0;
   background:
     linear-gradient(180deg, rgba(0,0,0,.45), rgba(0,0,0,.4)),
-    url('../images/tetons_at_night.jpg') center/cover no-repeat;
+    url('../images/tetons_at_night.webp') center/cover no-repeat;
   border-bottom:1px solid #23283a;
 }
 .home .hero .eyebrow{text-transform:uppercase;letter-spacing:.22em;color:var(--muted);font-size:12px;margin-bottom:10px;font-family:Montserrat, system-ui, sans-serif}
